@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-#export COMMANDLINE_ARGS=""
+export COMMANDLINE_ARGS="--skip-torch-cuda-test --xformers --theme dark --vae-path=C:\Users\lenovo\Documents\GitHub\stable-diffusion-webui\models\VAE\Counterfeit-V2.5_fp16.safetensors.vae.pt --no--half-vae"
 
 # python3 executable
 #python_cmd="python3"
